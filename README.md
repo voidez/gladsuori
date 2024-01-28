@@ -6,7 +6,7 @@ reviews table keys ![photo_2_2024-01-28_19-17-37](https://github.com/voidez/glad
 
 accounts and reviews requires ID incrementing.
 
-it can be done by requesting in MySQL
+it can be done by SQL queries
 
 ALTER TABLE accounts MODIFY id INT NOT NULL AUTO_INCREMENT;
 ALTER TABLE reviews MODIFY id INT NOT NULL AUTO_INCREMENT;
