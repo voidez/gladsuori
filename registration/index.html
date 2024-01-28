@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Register</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="../js/handler.js"></script>
+	</head>
+	<body>
+		<div class="container" align="center">
+			<div class="header">
+				<p>Регистрация</p>
+			</div>
+			<span id="id"></span>
+			<form id="registration-form" method="post">
+				<input type="text" class="trsl" name="reg_fio" placeholder="Введите ФИО">
+			    <input type="phone" class="trsl" name="reg_phone" placeholder="Введите номер телефона">
+				<input type="email" class="trsl" name="reg_email" placeholder="Введите почту">
+				<input type="text" class="trsl" name="reg_login" placeholder="Введите логин">
+				<input type="password" name="reg_password" placeholder="Введите пароль">
+				<input class="register-submit" type="submit" value="Зарегистрироваться">
+			</form>
+			<p class="error-status"></p>
+		</div>
+	</body>
+</html>
